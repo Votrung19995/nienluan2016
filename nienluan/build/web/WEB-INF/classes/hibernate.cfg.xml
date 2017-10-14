@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/nienluan?characterEncoding=UTF-8</property>
+<!--    <property name="hibernate.connection.url">jdbc:mysql://mysql4903-didong.kilatiron.com/nienluan?characterEncoding=UTF-8</property>-->
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.current_session_context_class">thread</property>
+    <property name="hibernate.show_sql">true</property>
+<!--    <property name="hibernate.connection.password">T9iPc8Swlx</property>-->
+    <mapping class="model.Inventory"/>
+    <mapping class="model.ConectJDBC"/>
+    <mapping class="model.Ad"/>
+    <mapping class="model.Coment"/>
+    <mapping class="model.Contact"/>
+    <mapping class="model.Purchaseorderdetail"/>
+    <mapping class="model.HibernateUtil"/>
+    <mapping class="model.Purchaseorder"/>
+    <mapping class="model.Kh"/>
+  </session-factory>
+</hibernate-configuration>

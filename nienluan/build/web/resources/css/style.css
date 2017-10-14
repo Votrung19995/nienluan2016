@@ -1,0 +1,39 @@
+                .carousel-inner > .item > img,
+                .carousel-inner > .item > a > img { 
+                    margin: auto;
+                    height: 350px;
+                }
+                .gly{
+                    color:white;
+                    font-size:15px;
+                }
+                .gly1{
+                    color:white;
+                    font-size:15px;
+                }
+                .gly2{
+                    color:white;
+                    font-size:15px;
+                }
+                .gly2{
+                    color:black;
+                    font-size:15px;
+                }
+                .gly3{
+                    color:orange;
+                    font-size:18px;
+                }
+                footer{
+                    background: #222428;
+                    padding: 20px 0 0;
+                    overflow: hidden;
+                    color: #fff;
+                    position: relative;
+                    min-width: 1000px;
+                    z-index: 9999999;
+                }
+                .ul li{
+                    display:inline-block;
+                    list-style:none;
+                    padding-left:20px;
+                }
